@@ -1,0 +1,39 @@
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraform.tfstate
+.terraform.tfstate.backup
+.terraform.lock.hcl
+.terraform/*.tfstate
+.terraform/*.tfstate.backup
+.terraform/*.lock.hcl
+*.tfvars
+*.tfvars.json
+.terraformrc
+terraform.rc
+
+# Local override files
+local.auto.tfvars
+
+# CLI configuration files
+.terraform/terraform.tfstate
+.terraform/terraform.tfstate.backup
+
+# Ignore sensitive plan output
+*.tfplan
+*.tfplan.binary
+
+# Ignore generated files
+generated.tf
+
+# Ignore editor files
+.vscode/
+.idea/
+*.swp
+*.bak
+*.tmp
